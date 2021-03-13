@@ -1,0 +1,21 @@
+class Rectangle
+{
+  private double length;
+  private double width;
+  public double length
+  {
+    get
+    {
+      return length;
+    }
+    set
+    {
+      if (value > 0.0)
+      width = value;
+    }
+  }
+  public double GetArea()
+  {
+    return length * width;
+  }
+}
